@@ -9,8 +9,9 @@ router.route("/register").post(upload.fields([{
 {
     name:"coverImage",
     maxCount: 1
-}])),
+}]),
 registerUser
+)
 
 
 export default router
